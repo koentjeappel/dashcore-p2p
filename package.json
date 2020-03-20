@@ -1,8 +1,8 @@
 {
-  "name": "@dashevo/dashcore-p2p",
+  "name": "PACGlobal-p2p",
   "version": "1.2.0",
-  "description": "Interface to the dash P2P network for Dashcore",
-  "author": "Dash Core Group, Inc. <dev@dash.org>",
+  "description": "Interface to the pacglobal P2P network for PACGlobal",
+  "author": "pacglobal Core Group, Inc. <dev@pacglobal.org>",
   "main": "index.js",
   "scripts": {
     "lint": "eslint .",
@@ -43,16 +43,16 @@
     }
   ],
   "keywords": [
-    "dash",
+    "pacglobal",
     "bitcore",
-    "dashcore"
+    "PACGlobal"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/dashevo/dashcore-p2p.git"
+    "url": "https://github.com/koentjeappel/PACGlobal-p2p.git"
   },
   "dependencies": {
-    "@dashevo/dashcore-lib": "^0.17.6",
+    "PACGlobal-lib": "^0.17.6",
     "bloom-filter": "^0.2.0",
     "node-buffers": "^0.1.1",
     "socks5-client": "^1.2.6"

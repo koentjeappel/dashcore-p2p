@@ -4,8 +4,8 @@
 
 var should = require('chai').should();
 var utils = require('../../lib/messages/utils');
-var dashcore = require('@dashevo/dashcore-lib');
-var BufferReader = dashcore.encoding.BufferReader;
+var PACGlobal = require('PACGlobal-lib');
+var BufferReader = PACGlobal.encoding.BufferReader;
 
 describe('Message Utils', function() {
 
